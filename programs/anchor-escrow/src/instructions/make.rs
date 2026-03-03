@@ -50,7 +50,8 @@ pub struct Make<'info> {
     /// - authority 为 `escrow` PDA，而不是 maker
     /// - 后续 take/refund 都通过 escrow PDA 签名来转出资产
     #[account(
-        mut,
+        init,
+        payer = maker,
         associated_token::mint = mint_a,
         associated_token::authority = escrow,
         associated_token::token_program = token_program

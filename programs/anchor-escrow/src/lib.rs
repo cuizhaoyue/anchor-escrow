@@ -6,7 +6,7 @@ mod errors;
 mod instructions;
 use instructions::*;
 
-declare_id!("HJGfhRpfUJHwm6W7MvCyHU13qEXfgLkJnhSPD23Ushwu");
+declare_id!("22222222222222222222222222222222222222222222");
 
 #[program]
 pub mod anchor_escrow {
