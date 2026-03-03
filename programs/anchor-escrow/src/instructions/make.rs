@@ -5,7 +5,7 @@ use anchor_spl::{
     token_interface::{Mint, TokenAccount, TokenInterface},
 };
 
-use crate::{Escrow, EscrowError};
+use crate::{state::Escrow, errors::EscrowError};
 
 /// `make` 指令的账户上下文。
 /// 该指令会创建订单状态并把 token A 托管到 `vault`。
