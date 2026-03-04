@@ -1,10 +1,6 @@
 # Anchor Escrow
 
-> Solana 托管交易程序 - Blueshift 挑战项目
-
-## 挑战链接
-
-https://learn.blueshift.gg/zh-CN/challenges/anchor-escrow
+> Solana 托管交易程序 - Anchor 实战项目
 
 ## 项目概述
 
